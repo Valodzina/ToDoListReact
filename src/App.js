@@ -42,7 +42,7 @@ class App extends Component {
 
   singOutfromapp =() => {
     firebase.auth().signOut();
-    //localStorage.setItem('todos', '');
+    localStorage.setItem('todos', '');
 
   }
 
