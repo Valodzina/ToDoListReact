@@ -1,0 +1,106 @@
+.Todo {
+    display: flex;
+    margin: 0rem -3rem;
+    padding: 0rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.Todo-Task{
+    position: relative;
+    transition: all 0.4s linear;
+    font-size: 1.3rem;
+    /* max-width: 350px; */
+}
+
+.div-todo-task{
+    width: 350px; 
+    word-break:break-all;
+
+    
+}
+
+.Todo .completed{
+    opacity: 0.25;
+}
+
+
+.Todo-buttons{
+    flex-shrink: 0;
+    padding: 0.7em;
+}
+
+.editbuttons {
+	/* padding:0 1.3rem; */
+    padding: 10px;
+	border:none;
+	background:#008984;
+	color:white;
+	text-transform:uppercase;
+	font-weight:bold;
+	border:1px solid rgba(255,255,255,.3);
+	margin-left:1rem;
+	cursor:pointer;
+	transition:background .2s ease-out;
+    margin-bottom: 0.7rem;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+}
+
+.editbuttons:hover{
+    background-color: white;
+    border:1px solid #008984;
+    color: #008984;
+}
+
+
+
+
+
+
+
+
+.Todo-edit {
+    display:flex;
+}
+
+.Todo-edit input{
+    flex-grow:1;
+	border:none;
+	padding: 0.5rem 0.7rem;
+    font-size: 1.3rem;
+    border: 1px solid rgb(179, 172, 172);
+    outline: none;
+    transition: all 0.4s ease-in;
+    border-radius: 2px;
+    margin-bottom: 0.7rem;
+    width: 375px;
+}
+
+
+.Todo-edit input:hover{
+    border: 1px solid black ;
+}
+
+.Todo-edit button {
+	
+	border:none;
+	background:#008984;
+	color:white;
+	text-transform:uppercase;
+	font-weight:bold;
+	border:1px solid rgba(255,255,255,.3);
+	margin-left:1rem;
+	cursor:pointer;
+	transition:background .2s ease-out;
+    margin-bottom: 0.7rem;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+}
+
+.Todo-edit button:hover{
+    background-color: white;
+    border:1px solid #008984;
+    color: #008984;
+}
